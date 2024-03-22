@@ -20,20 +20,20 @@
             transform: rotate(-45deg);
             transition: .3s;
             width: 25px;
-        }  
-        & .menu {
-            display:flex;
-            position: absolute;
-            top: 50px;
-            right: 0px;
-            background-color: rgba(58, 58, 58, 0.8);
-            width: 150px;
-            height: 130px;
-            border-radius: 20px;
-            padding: 10px;
-            text-align: right;
-            transition: 1s;
         }
+    }
+    .menu__visiable {
+        display:flex;
+        position: absolute;
+        background-color: rgba(58, 58, 58, 0.8);
+        top: 50px;
+        right: 80px;
+        /* width: 200px;
+        height: 130px; */
+        border-radius: 20px;
+        padding: 10px;
+        text-align: right;
+        transition: 1s;
     }
     .navUl {
         display: none;

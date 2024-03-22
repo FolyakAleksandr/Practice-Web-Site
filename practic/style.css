@@ -65,7 +65,6 @@ header {
 .burger {
     position: relative;
     flex-direction: column;
-    justify-content: space-between;
     display: none;
     width: 20px;
     height: 17px;
@@ -79,11 +78,22 @@ header {
     height: 3px;
     border-radius: 4px;
 }
-.menu {
-    display: none;
-    color: white;
-    transition: 1s;
+
+.btn {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 17px;
+    background-color: inherit;
+    border: none;
+    z-index: 100;
 }
+.menu {
+    display:none;
+}
+
+
+
 .menu__ul li a {
     transition: .3s;
 }
